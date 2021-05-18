@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  cursor: pointer;
+}
+.background {
+  background: url(../Image/bg2.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.logo {
+  width: 15%;
+  height: 94%;
+  text-align: center;
+}
+.logo img {
+  margin-top: 3px;
+  width: 50px;
+  height: 45px;
+  border: 3px solid white;
+  border-radius: 150%;
+}
+.nav-list li {
+  list-style: none;
+  padding: 16px 34px;
+  text-align: center;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.nav-list li a:hover {
+  color: gray;
+}
+
+.rightNav {
+  width: 30%;
+  text-align: right;
+}
+#search {
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 3px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+.btn {
+  padding: 4px 15px;
+  margin: 5px 3px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: ui-monospace;
+  cursor: pointer;
+  color: black;
+  background: none;
+  border: 2px solid black;
+}
+
+/* First Section */
+.firstSection {
+  height: 100vh;
+}
+.main-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 170px;
+}
+.firstHalf {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+}
+.secondHalf img {
+  width: 212px;
+  height: 205px;
+  border: 5px solid black;
+  border-radius: 150px;
+  padding: 2px;
+  display: block;
+  margin: auto;
+}
+.text-Big {
+  font-size: 2rem;
+  color: black;
+}
+.text-Small {
+  margin: 5px 0px;
+  font-size: 1rem;
+  color: black;
+}
+.firstBtn {
+  padding: 6px 15px;
+  margin: 5px 0px;
+  border: 3px solid black;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: ui-monospace;
+  cursor: pointer;
+  color: black;
+}
+.secondBtn {
+  color: black;
+  padding: 6px 15px;
+  margin: 5px 10px;
+  border: 3px solid black;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: ui-monospace;
+  cursor: pointer;
+  color: black;
+}
+
+/* Second Section */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80vw;
+  margin: auto;
+}
+.imgFluid {
+  width: 170px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 34px;
+}
+.paras {
+  padding: 0px 55px;
+}
+.secTag {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "Orelega One", cursive;
+}
+.secSubTag {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-Left {
+  flex-direction: row-reverse;
+}
+
+/* Contact Us  */
+.contact {
+  background-color: whitesmoke;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Orelega One", cursive;
+  padding: 20px 0px;
+}
+.form {
+  max-width: 45%;
+  margin: auto;
+  margin-top: 12px;
+}
+.form-input {
+  width: 100%;
+  padding: 8px 3px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  margin: 5px 0px;
+}
+.btnContact {
+  padding: 4px 15px;
+  margin: 5px 3px;
+  border: 2px solid gray;
+  border-radius: 9px;
+  font-family: ui-monospace;
+  cursor: pointer;
+  color: black;
+}
+
+/* Footer  */
+.foot {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px 0px;
+}
+
+/* For Hamburger Menu  */
+.burger {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+}
+.line {
+  width: 33px;
+  margin: 3px 3px;
+  background-color: white;
+  height: 4px;
+}
